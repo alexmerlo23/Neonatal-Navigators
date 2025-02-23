@@ -41,11 +41,35 @@
 
 /* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
+    .right-branch-top-container {
+        border: 2px solid black;
+        width: 90%;
+    }
+    
     .protocol-image {
+        border: 2px solid black;
+        width: 90%;
+    }
+
+    .exclusion-criteria{
+        border: 2px solid black;
+        width: 90%;
     }
 }
 
 @media (max-width: 468px) {
+    .right-branch-top-container {
+        border: 1px solid black;
+        width: 95%;
+    }
+    
     .protocol-image {
+        border: 1px solid black;
+        width: 95%;
+    }
+
+    .exclusion-criteria{
+        border: 1px solid black;
+        width: 95%;
     }
 }
