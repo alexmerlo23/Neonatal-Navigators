@@ -178,20 +178,22 @@ export default function RightBranch() {
                 <div className="input-group">
                     <label className="phLabel">Enter pH:</label>
                     <input
+                        className="phInput"
                         type="number"
                         value={Ph}
                         onChange={(e) => setPh(e.target.value)}
-                        placeholder="pH"
+                        placeholder="0.00"
                         step="0.01"
                     />
                 </div>
                 <div className="input-group">
                     <label className="baseDeficitLabel">Enter Base Deficit:</label>
+                    <p className="minusSign"> - </p>
                     <input
                         type="number"
                         value={BaseDeficit}
                         onChange={(e) => setBaseDeficit(e.target.value)}
-                        placeholder="Base Deficit"
+                        placeholder="0.00"
                         step="0.01"
                     />
                 </div>

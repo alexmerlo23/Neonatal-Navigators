@@ -164,6 +164,11 @@
     margin-bottom: 10px;
 }
 
+.input-group p{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
 .input-group label {
     margin: 0 20px;
     width: 25%;
@@ -176,6 +181,10 @@
     border: 2px solid black;
     box-sizing: border-box;
     
+}
+
+.phInput {
+    margin-left: 10px;
 }
 
 .part-5-container {
